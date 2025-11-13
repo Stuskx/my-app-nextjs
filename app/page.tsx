@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Counter from "../components/Counter";
-import GithubParagraph from "@/components/GithubParagraph";  
+import GithubParagraph from "../components/GithubParagraph";  
 import Store from "../components/Store";
 export default function Home() {
   return (
