@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Counter from "../Components/Counter";
-import GithubParagraph from "@/Components/GithubParagraph";  
-import Store from "../Components/Store";
+import Counter from "../components/Counter";
+import GithubParagraph from "@/components/GithubParagraph";  
+import Store from "../components/Store";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
