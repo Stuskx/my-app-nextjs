@@ -18,23 +18,14 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <main style={{padding: "2rem"}}>
-                     <h1>Counter Demo</h1>
-                     <Counter incrementAmount={1} buttonColor="blue" />
-                     <Counter incrementAmount={2} buttonColor="green" />
-                 </main>
+         
                  
           
         </div>
         
-        <main style={{padding: "2rem"}}>
-                    <h1>Project Overview</h1>
-                    <GithubParagraph />
-                </main>
+        
 
-                <section style={{padding: "2rem"}}>
-                  <Store />
-                </section>
+               
       </main>
     </div>
   );
